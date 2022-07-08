@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="mailto:178w1a0257@vrsiddhartha.ac.in" method="post">
+        <h2>Contact Information</h2>
+        <br>
+        <br>
+        <label>Name : </label>
+        <input type="text" name ="Name" placeholder= "Enter Your Name" required>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Gender</legend>
+                <label>Male</label>
+                <input type="radio" name= "gender" id="Male" required>
+                <label>Female</label>    
+                <input type="radio" name="gender"id ="Female" required>
+        </fieldset>
+        <br>
+        <table>
+            <tr>
+                <td>
+                    <label>Address : </label>
+                    
+                </td>
+                <td>
+                    
+                    <textarea 
+                        name="Address" 
+                        id="Address" 
+                        rows="5" 
+                        cols="70" 
+                        required>
+                    </textarea>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Email : </label>
+                </td>
+                <td>
+                    <input type="email" 
+                    name ="email" 
+                    id ="mail"
+                    required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <lable>Pincode :</lable>
+
+                </td>
+                <td>
+                    <input type="text" 
+                    name ="pincode" 
+                    id="pincode"
+                    required>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Message  : </label>
+                </td>
+                <td>
+                    <textarea 
+                    name="Address" 
+                    id="Address" 
+                    rows="5" 
+                    cols="70" 
+                    required>
+                </textarea>
+                </td>
+            </tr>
+        </table>
+           <br>
+        <input type="submit" value="send">
+    </form>  
+</body>
+</html>
